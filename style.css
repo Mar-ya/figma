@@ -1,0 +1,91 @@
+
+.squareA{
+    height:60px;
+    width: 60px;
+    background-color:red;
+    position: fixed;
+    top:50%;
+    right: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    display: inline;   animation:left 3s forwards;
+    transform: translateX(90vw)
+} 
+.squareB{
+    height:60px;
+    width: 60px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color:salmon;
+    border-radius: px;
+    display: inline;
+    border-bottom-right-radius:30px;
+    border-top-right-radius: 30px;
+    transform: translateX(-100vw);
+    animation: right 3s forwards;
+}
+@keyframes right{
+    to {
+        transform: translateZ(2.0rem);
+    }
+}
+@keyframes left{
+    to{
+        transform:translateZ(-2.5rem) ;
+    }
+}
+
+.squareC {
+    height:56px;
+    width: 56px;
+    position:fixed;
+    top:59%;
+    right:50%;
+    background-color: rgb(241, 95, 241);
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    animation: right 3s forwards;
+    transform: translateY(120vw);
+}
+@keyframes right{
+    to{
+        transform: translateX(-0.0rem);
+    }
+}
+.squareD{
+    height: 56px;
+    width: 56px;
+    position: fixed;
+    top:59%;
+    left:50%;
+    background-color: rgb(41, 142, 236);
+    border-radius: 28px;
+    animation:  left 3s forwards;
+    transform:translateY(200vw);
+    animation-delay: 2s;
+} 
+@keyframes left {
+    to{
+        transform:translateX(0.0rem);
+    }
+}
+.squareE {
+    height:56px;
+    width: 56px;
+    position: fixed;
+    top:67.6%;
+    right:50%;
+    background-color: chartreuse;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px; 
+    animation: right 3s forwards;
+    transform: translate(300vw);
+
+}
+@keyframes right{
+    to{
+        transform: translateX(0.0rem);
+    }
+}
